@@ -1,0 +1,10 @@
+# Author: Will Muir
+# Date: 08/30/2020
+# Description: This python program converts Fahrenheit to Celsius
+
+
+for tempConversions in range(3):
+    inputFahrenheitString = input("Enter your temperature in F: ")
+    tempInF = float(inputFahrenheitString)
+    tempInC = (tempInF - 32) * (5/9)
+    print("The temperature in C is", tempInC, "degrees")
